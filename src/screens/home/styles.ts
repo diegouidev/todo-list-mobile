@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     marginTop: -54,
-    marginBottom: 42,
+    marginBottom: 12,
     padding: 24
   },
   input: {
@@ -39,4 +39,37 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  wrapper: {
+    paddingLeft: 24,
+    paddingRight: 24,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+  counter: {
+    flexDirection: 'row',
+  },
+  created: {
+    marginRight: 12,
+    color: '#4EA8DE',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  number: {
+    color: '#D9D9D9',
+    backgroundColor: '#333333',
+    borderRadius: 999,
+    paddingLeft: 10,
+    paddingRight: 10,
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  done: {
+    flexDirection: 'row',
+  },
+  completed: {
+    marginRight: 12,
+    color: '#8284FA',
+    fontWeight: 'bold',
+    fontSize: 14,
+  }
 });
