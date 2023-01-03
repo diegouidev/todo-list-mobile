@@ -43,7 +43,8 @@ export const styles = StyleSheet.create({
     paddingLeft: 24,
     paddingRight: 24,
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    marginBottom: 24,
   },
   counter: {
     flexDirection: 'row',
@@ -60,15 +61,6 @@ export const styles = StyleSheet.create({
     borderRadius: 999,
     paddingLeft: 10,
     paddingRight: 10,
-    fontWeight: 'bold',
-    fontSize: 14,
-  },
-  done: {
-    flexDirection: 'row',
-  },
-  completed: {
-    marginRight: 12,
-    color: '#8284FA',
     fontWeight: 'bold',
     fontSize: 14,
   }

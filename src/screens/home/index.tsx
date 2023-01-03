@@ -41,6 +41,7 @@ export function Home() {
               style={styles.input}
               placeholder="Adicione uma nova tarefa"
               placeholderTextColor="#6b6b6b"
+              onChangeText={text => setTaskName(text)}
             />
             <TouchableOpacity style={styles.button}
               onPress={handleTaskAdd}>
@@ -54,14 +55,6 @@ export function Home() {
               </Text>
               <Text style={styles.number}>
                 0
-              </Text>
-            </View>
-            <View style={styles.done}>
-              <Text style={styles.completed}>
-                Concluídas
-              </Text>
-              <Text style={styles.number}>
-                0 de 0
               </Text>
             </View>
           </View>

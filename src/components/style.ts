@@ -6,7 +6,9 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
     flexDirection: 'row',
     alignItems: 'center',
-    margin: 24
+    marginBottom: 24,
+    marginLeft: 24,
+    marginRight: 24
   },
   name: {
     flex: 1,
@@ -23,7 +25,6 @@ export const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   cardButton: {
-
     width: 50,
     height: 64,
     borderRadius: 8,
